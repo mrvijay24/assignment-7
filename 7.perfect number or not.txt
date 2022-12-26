@@ -1,0 +1,12 @@
+#Assignment-7:the given number is perfect number or not
+n=int(input("enter the number"))
+count=0
+i=1
+while(i<n):
+    if n%i==0:
+        count=count+i
+    i=i+1
+if count==n:
+    print("perfect number")
+else:
+    print("not perfect number")
